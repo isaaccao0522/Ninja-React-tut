@@ -1,0 +1,87 @@
+.app {
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      flex: 1;
+      color: red;
+    }
+
+    .links {
+      flex: 1;
+      display: flex;
+      gap: 1rem;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+      
+  }
+
+  main {
+    .blog-list {
+
+      h2 {
+        color: black;
+      }
+
+      .blog-preview {
+
+        a {
+          text-decoration: none;
+
+        }
+
+        h2 {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .create {
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      font-size: 1rem;
+      color: red;
+      margin-bottom: 2rem;
+    }
+
+    form {
+      label {
+        text-align: left;
+        display: block;
+      }
+
+      input, textarea, select {
+        border: 1px solid #ddd;
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 0;
+        box-sizing: border-box;
+        display: block;
+      }
+      
+      button {
+        border: none;
+        border-radius: 1rem;
+        background-color: red;
+        padding: 1rem;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+}
